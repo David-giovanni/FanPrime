@@ -78,6 +78,7 @@ onMounted(() => {
 
 <template>
   <main class="app">
+    <h1 class="title1">TO DO LIST</h1>
     <section class="greeting">
       <h2 class="title">
         Hello, <input type="text" placeholder="Name here" v-model="name" />
